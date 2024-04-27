@@ -49,8 +49,8 @@ public class BookService {
 
 		Book existing = found.get();
 
-		if (BookDetails.getNameBook() != null) {
-			existing.setNameBook(BookDetails.getNameBook());
+		if (BookDetails.getName() != null) {
+			existing.setName(BookDetails.getName());
 		}
 		if (BookDetails.getAuthor() != null) {
 			existing.setAuthor(BookDetails.getAuthor());
