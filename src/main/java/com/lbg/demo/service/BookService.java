@@ -56,6 +56,10 @@ public class BookService {
 			existing.setAuthor(BookDetails.getAuthor());
 
 		}
+		if (BookDetails.getType() != null) {
+			existing.setType(BookDetails.getType());
+
+		}
 		if (BookDetails.getImage() != null) {
 			existing.setImage(BookDetails.getImage());
 		}
